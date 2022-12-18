@@ -69,9 +69,9 @@ class EscolherInstrutor
         habilidadeInstrutor.add(instrutor5.getHabilidade());
         habilidadeInstrutor.add(instrutor6.getHabilidade());
 
-        /*FileWriter fw = new FileWriter(new File("C:/instrutores.txt"));
+        FileWriter fw = new FileWriter(new File("C:/instrutores.txt"));
         fw.write(instrutores.toString());
-        fw.close();*/
+        fw.close();
 
     }
 
